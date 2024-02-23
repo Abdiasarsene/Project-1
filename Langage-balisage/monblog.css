@@ -24,14 +24,12 @@ nav ul li a{
     text-decoration: underline;
 }
 .corps{
-    height: 400px;
-    margin:0;
-    background: url(https://static7.depositphotos.com/1265483/749/i/380/depositphotos_7496742-stock-photo-beautiful-african-american-woman.jpg);
-    background-size: auto;
-    background-position: center;
-    background-attachment: fixed;
-    margin: 20px -20px 20px -20px;
-    display: flex;
+    background-color: 
+    #ff5e11;
+    height: 450px;
+    align-items: center;
+    justify-content: center;
+    margin: -20px -20px -40px -20Px;
     align-items: center;
 }
 .corps1{
@@ -41,12 +39,17 @@ nav ul li a{
 }
 .twosection{
     height: 400px;
-    background-color: red;
+    margin:0;
+    background: url(https://static7.depositphotos.com/1265483/749/i/380/depositphotos_7496742-stock-photo-beautiful-african-american-woman.jpg);
+    background-size: auto;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 20px -20px 20px -20px;
 }
 .contactpage{
     background-color: #3E5567;
     height: 500px;
-    margin:2em -2em 3em -2em;
+    margin:-2em -2em -3em -2em;
     display: grid;
     place-content: center;
     place-items: center;
@@ -96,11 +99,12 @@ label{
     font-weight: 800;
 }
 .fopt{
-    background-color: #3E5567;
+    background-color: #4e4a4a;
     display:flex;
     justify-content: space-around;
     align-items: center;
     margin: 20px -20px  -20px;
+    height: 300px;
 }
 .newletter{
     width: 30%;
