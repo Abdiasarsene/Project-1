@@ -38,4 +38,23 @@ const totalLivre = Nbredelivrebiblio + achatdeplus - jetlivre - jetlivre
 console.log(totalLivre)
 
 //Déclarez un objet
-let
+let dossiersetienne ={
+    nom: "ADRI Etienne Eliasaph ",
+    age: 15,
+    moyenneclasse: 9 ,
+    hobbies: "regader la télé" ,
+    preferencecolor: "bleu"
+}
+dossiersetienne.copine = "Annie"
+console.log(dossiersetienne)
+
+//Accéder aux informations d'un objet
+const name = dossiersetienne.hobbies
+console.log(name)
+
+//Deuxième exercice objet sur Openclassroom
+let zountcheme ={
+    nomFilm: "Batman",
+    prix,
+    numeroSalle
+}
