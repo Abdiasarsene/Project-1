@@ -19,9 +19,13 @@ const prenom = "abdias"
 const prenom1 = ", abdiel"
 
 //Déclarez un tableau en utilisant []
-const tprenom = [prenom,prenom1]
-const tp =tprenom.length
+let tprenom = [prenom,prenom1]
+tprenom.push("beryl")
+tprenom.pop(prenom1)
+let tp =tprenom.length
 console.log(tprenom)
+
+//Ajouter des données dans mon tableau
 
 //Manipulation des boléens
 let ageEtienne = true
@@ -36,7 +40,7 @@ const totalLivre = Nbredelivrebiblio + achatdeplus - jetlivre - jetlivre
 
 //Déclarez un objet
 let dossiersetienne ={
-    nom: "ADRI Etienne Eliasaph ",
+    nom: "Etienne Eliasaph ",
     age: 15,
     moyenneclasse: 9 ,
     hobbies: "regader la télé" ,
