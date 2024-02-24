@@ -8,20 +8,19 @@ const num2 = 34
 
 const totalnum =  num + num2
 
-console.log(monage)
-
 console.log(totalnum)
 
 let monage2 = 23
 
 let total = monage - monage1
-console.log(total)
 
 // Manipulation des caractères
 const prenom = "abdias"
 const prenom1 = ", abdiel"
 
-const tprenom = prenom + prenom1
+//Déclarez un tableau en utilisant []
+const tprenom = [prenom,prenom1]
+const tp =tprenom.length
 console.log(tprenom)
 
 //Manipulation des boléens
@@ -35,8 +34,6 @@ const rachalivre = 5
 
 const totalLivre = Nbredelivrebiblio + achatdeplus - jetlivre - jetlivre
 
-console.log(totalLivre)
-
 //Déclarez un objet
 let dossiersetienne ={
     nom: "ADRI Etienne Eliasaph ",
@@ -46,15 +43,20 @@ let dossiersetienne ={
     preferencecolor: "bleu"
 }
 dossiersetienne.copine = "Annie"
-console.log(dossiersetienne)
+let file = "Dossier sur Etienne"
 
-//Accéder aux informations d'un objet
-const name = dossiersetienne.hobbies
-console.log(name)
+const affichage =" contient des informations capitales. Parmi ces infos, il est important de noter ceci : "+dossiersetienne.nom+" agé de "+dossiersetienne.age+" avec une moyenne de "+dossiersetienne.moyenneclasse+". Il aime beaucoup"^+dossiersetienne.hobbies+" et sa couleur préférée est le"+dossiersetienne.preferencecolor+". Sa copine s'appel"+dossiersetienne.copine
+console.log(affichage)
 
 //Deuxième exercice objet sur Openclassroom
-let zountcheme ={
+let ticket ={
     nomFilm: "Batman",
-    prix,
-    numeroSalle
+    prix: 10,
+    numeroSalle:3
 }
+let Nom= "Abdias"
+
+let textaffichage = "Bonjour "+Nom+", votre film "+ticket.nomFilm+" est en salle numero "+ticket.numeroSalle+"."
+console.log(textaffichage)
+
+//Déclarez un tableau
