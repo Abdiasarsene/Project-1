@@ -30,3 +30,8 @@ if (tapeOK){
 } else{
     console.log("Opus, reesayez encore")
 }
+
+// Les boucles for et while
+for(let i =4; i<12; i++){
+    console.log(i)
+}
