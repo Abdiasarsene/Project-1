@@ -1,0 +1,41 @@
+section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(227, 220, 235);
+    padding: 10px;
+    margin: -20px;
+}
+.premiersect nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.premiersect nav ul li{
+    display: inline;
+}
+.log img{
+    height: 100px;
+}
+.premiersect ul li a{
+    font-size: 1,5em;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    text-decoration: underline;
+}
+.deuxiemenav nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.deuxiemenav nav ul li{
+    display: inline;
+}
+.deuxiemenav ul li a{
+    font-size: 1,5em;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    text-decoration: underline;
+}
