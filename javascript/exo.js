@@ -9,7 +9,7 @@ let dossiersetienne ={
 dossiersetienne.copine = "Annie"
 let file = "Dossier sur Etienne"
 
-const affichage = file+" contient des informations capitales. Parmi ces infos, il est important de noter ceci : "+dossiersetienne.nom+" agé de "+dossiersetienne.age+" ans avec une moyenne de "+dossiersetienne.moyenneclasse+". Il aime beaucoup"+dossiersetienne.hobbies+" et sa couleur préférée est le"+dossiersetienne.preferencecolor+". Sa copine s'appel"+dossiersetienne.copine
+const affichage = file+" contient des informations capitales. Parmi ces infos, il est important de noter ceci : "+dossiersetienne.nom+" agé de "^+dossiersetienne.age+" ans avec une moyenne de "+dossiersetienne.moyenneclasse+". Il aime beaucoup"+dossiersetienne.hobbies+" et sa couleur préférée est le"+dossiersetienne.preferencecolor+". Sa copine s'appel"+dossiersetienne.copine
 console.log(affichage)
 
 //Deuxième exercice objet sur Openclassroom
