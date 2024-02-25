@@ -23,15 +23,6 @@ let Nom= "Abdias"
 let textaffichage = "Bonjour "+Nom+", votre film "+ticket.nomFilm+" est en salle numero "+ticket.numeroSalle+"."
 console.log(textaffichage)
 
-//Conditions
-let tapeOK = true
-if (tapeOK){
-    console.log("Excellent, le mot est bien tapé")
-} else{
-    console.log("Opus, reesayez encore")
-}
-
-// Les boucles for et while
-for(let i =4; i<12; i++){
-    console.log(i)
-}
+//Créer une condition
+const belvina = 9
+let usertape = prompt("Entrez vos id : "+belv)
